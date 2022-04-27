@@ -12,29 +12,42 @@
   
   <style>
     button{
+      display: flex;
+      flex-flow: column-reverse;
       background-color: rgb(74, 74, 203);
       color: white;
       border-radius: 15px;
       padding: 20px 40px;
+    }
+
+    .age-container{
+      margin: 0 auto;
+      background-color: white;
+      color: black;
+      border-radius: 5px;
+      width: 50px;
     }
   </style>
 </head>
 <!-- Body -->
 <body>
 
-  <button onclick="inc()">
+  <button onclick="increament()">
     Anas Mohamed Elsebay
-    <h1 id="age">
-      21
-    </h1>
+    <div class="age-container">
+      <h1 id="age">
+        21
+      </h1>
+    </div>
   </button>
+
+  <script>
+    const increament = () =>{
+      document.getElementById("age").innerHTML = parseInt(document.getElementById("age").innerHTML) + 1;
+    }
+  </script>
 
   <!-- Start your code here -->
   <!-- End -->
 </body> 
-<script>
-  const inc = () =>{
-    document.getElementById("age").innerHTML = parseInt(document.getElementById("age").innerHTML) + 1;
-  }
-</script>
 </html>
