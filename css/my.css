@@ -102,3 +102,11 @@ img {
 .user__info > small {
   color: #666;
 }
+
+.neumo{
+  border-radius: 50px;
+  background: #7f7fd5;
+  box-shadow:  8px 8px 19px #bebebe,
+               -8px -8px 19px #ffffff;
+
+}
