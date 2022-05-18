@@ -102,3 +102,21 @@ img {
 .user__info > small {
   color: #666;
 }
+
+.neumo{
+  border-radius: 50px;
+  background: #7f7fd5;
+  box-shadow: inset 5px 5px 10px #8c8cd1,
+            inset -5px -5px 10px #9f9fd8;
+}
+.neumo:hover{
+  border-radius: 50px;
+  background: #2d2d2d;
+  box-shadow: inset 5px 5px 10px #515151,
+            inset -5px -5px 10px #000000;
+}
+
+.card-edham{
+  background: #7f81d5;
+}
+
